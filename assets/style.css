@@ -1,0 +1,219 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
+}
+
+a:link {
+    color: #F9D189;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #F9D189;
+}
+
+a:hover {
+    color: #A37D5B;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #A37D5B;
+    text-decoration: underline;
+}
+
+
+
+
+
+header {
+    background-color: #363240;
+}
+
+ul {
+    font-family: Verdana;
+    color: #F9D189;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    float: right;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+li {
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #363240;
+    font-family: Verdana;
+    color:#F5F5F5;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    line-height: 30px;
+}
+
+.portrait {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 300px;
+    margin-top: 20px;
+}
+
+#Intro {
+    margin-left: 50px;
+    font-family: Verdana;
+    font-size: 28px;
+    height: 500px;
+}
+
+#Intro2 {
+    margin-top: 50px;
+}
+
+#Ezra {
+    color: #6A7BD9;
+}
+
+#Dev {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+h1 {
+    margin-left: 50px;
+    color: #363240;
+    font-family: Verdana;
+}
+
+#About {
+    background-color: #6A7BD9;
+    padding-bottom: 30px;
+    height: 500px;
+}
+
+#AboutMeText {
+    margin-left: 50px;
+    color:#F5F5F5;
+    font-family: Verdana;
+}
+
+article {
+    font-family: Verdana;
+}
+
+#Education {
+    background-color: #F5F5F5;
+    padding-bottom: 30px;
+    height: 500px;
+}
+
+h2 {
+    margin-left: 50px;
+    color: #363240;
+    font-family: Verdana;
+}
+
+#EducationText {
+    margin-left: 50px;
+    color:#363240;
+    font-family: Verdana;
+}
+
+h3 {
+    margin-left: 50px;
+    color: #6A7BD9;
+    font-family: Verdana;
+}
+
+#Projects {
+    background-color: #F9D189;
+    padding-bottom: 30px;
+}
+
+
+#ProjectsText {
+    margin-left: 50px;
+    color:#A37D5B;
+    font-family: Verdana;
+}
+
+h4 {
+    margin-left: 50px;
+    color: #6A7BD9;
+    font-family: Verdana;
+}
+
+#Contact {
+    background-color: #F5F5F5;
+    padding-bottom: 30px;
+    height: 500px;
+}
+
+
+#ContactText {
+    margin-left: 50px;
+    color:#363240;
+    font-family: Verdana;
+}
+
+.image-grid > img {
+    border: 3px solid #363240;
+}
+
+#AppPlace1 {
+    position: absolute;
+}
+
+
+/*.image-grid {
+    --gap: 16px;
+    --num-col: 1;
+    --row-height: 300px;
+
+    box-sizing: border-box;
+    padding: var(--gap);
+
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    grid-auto-rows: var(--row-height);
+    gap: var(--gap);
+}
+
+.image-grid > img {
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+}
+
+.image-grid-col-2 {
+    grid-column: span 2;
+}
+
+.image-grid-row-2 {
+    grid-row: span 2;
+}
+
+@media screen and (max-width: 1024px) {
+    .img-grid {
+        --num-cols: 2;
+        --row-height: 200px;
+    }
+}
+
+
+
+
